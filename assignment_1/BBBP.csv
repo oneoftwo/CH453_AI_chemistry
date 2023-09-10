@@ -671,7 +671,6 @@ num,name,p_np,smiles
 684,medazepam,1,CN1CCN=C(c2ccccc2)c3cc(Cl)ccc13
 685,meprobamate,1,CCCC(C)(COC(N)=O)COC(N)=O
 686,9-C15,1,c1c2CCOc2c(cc1OC)CN[C@@H]1CCCN[C@H]1c1ccccc1
-687,9-C17,1,c1(cc(N\C(=[NH]\c2cccc(c2)CC)C)ccc1)CC
 688,9-C7,1,c1(c(cc2n(ncc2c1)CCN)Cl)Cl
 689,Abacavir,1,Nc1nc(NC2CC2)c3ncn([C@@H]4C[C@H](CO)C=C4)c3n1
 690,Acebutolol,1,CCCC(=O)Nc1ccc(OCC(O)CNC(C)C)c(c1)C(C)=O
