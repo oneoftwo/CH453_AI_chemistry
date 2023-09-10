@@ -634,7 +634,6 @@ num,name,p_np,smiles
 640,glutethimide,1,CCC1(CCC(=O)NC1=O)c2ccccc2
 641,haloperidol,1,OC1(CCN(CCCC(=O)c2ccc(F)cc2)CC1)c3ccc(Cl)cc3
 642,harmalol,1,CC1=C2NC3=CC(=O)C=CC3=C2C=CN1
-644,12,0,c1c(c(ncc1)CSCCN\C(=[NH]\C#N)NCC)Br
 645,14,1,c1cc(ncc1)CSCCNc1c(cc[nH]1)[N+](=O)[O-]
 646,15,1,c1(cc(nc(c1C)C)C(SC(CNc1c(cc[nH]1)[N+](=O)[O-])(C)C)(C)C)C
 647,16,1,n1c(csc1\[NH]=C(\N)N)c1ccccc1
