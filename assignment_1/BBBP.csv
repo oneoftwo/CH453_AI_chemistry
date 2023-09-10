@@ -636,7 +636,6 @@ num,name,p_np,smiles
 642,harmalol,1,CC1=C2NC3=CC(=O)C=CC3=C2C=CN1
 645,14,1,c1cc(ncc1)CSCCNc1c(cc[nH]1)[N+](=O)[O-]
 646,15,1,c1(cc(nc(c1C)C)C(SC(CNc1c(cc[nH]1)[N+](=O)[O-])(C)C)(C)C)C
-651,2,1,s1cc(nc1\[NH]=C(\N)N)C
 652,22,1,c1(c(oc(c1C)C(N(C(C)(N)C)C(N)(C)C)(C)C)C)C.C[NH+]O.[OH-]
 653,23,1,[NH]C(CC(C)C([N@@](C(C)(C)C)C(N)(C)N)(C)C)c1c(c(c[nH+][o+]1)C)[O-]
 654,tamitinol,1,CCNCc1c(O)c(C)ncc1CSC
