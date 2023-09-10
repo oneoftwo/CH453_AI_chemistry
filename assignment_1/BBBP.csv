@@ -59,7 +59,6 @@ num,name,p_np,smiles
 58,19,0,CNC(=NC#N)Nc1cccc(c1)c1csc(n1)N=C(N)N
 59,Y-G 14,1,n(ccc1)c(c1)CCNC
 61,sertraline,1,[Cl-].CN[C@H]1CC[C@@H](c2ccc(Cl)c(Cl)c2)c3ccccc13.[H+]
-62,22767,1,c1(nc(NC(N)=[NH2])sc1)CSCCNC(=[NH]C#N)NC
 64,vincristine,1,CC[C@]1(O)C[C@H]2CN(CCc3c([nH]c4ccccc34)[C@@](C2)(C(=O)OC)c5cc6c(cc5OC)N(C=O)[C@H]7[C@](O)([C@H](OC(C)=O)[C@]8(CC)C=CCN9CC[C@]67[C@H]89)C(=O)OC)C1
 65,SB-222200,1,CCC(NC(=O)c1c(c(nc2c1cccc2)c1ccccc1)C)c1ccccc1
 66,SB-656104-A,1,ClC1=CC=CC(OC2CCN(CCC3CCCN3S(C4=CC(N([H])C=C5)=C5C=C4)(=O)=O)CC2)=C1
