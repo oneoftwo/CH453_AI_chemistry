@@ -387,7 +387,6 @@ num,name,p_np,smiles
 389,2-methylpropanol,1,CC(C)CO
 390,"""2,2-dimethylbutane""",1,CCC(C)(C)C
 391,Vidarabine,1,Nc1ncnc2n(cnc12)C3OC(CO)C(O)C3O
-393,ICI17148,1,Cc1nc(sc1)\[NH]=C(\N)N
 394,Mono-hydroxylated-L-663581,0,c12c(C(N(Cc3n1cnc3c1noc(n1)C(O)(C)C)C)=O)c(ccc2)Cl
 395,Thioperamide,1,S=C(NC1CCCCC1)N2CCC(CC2)c3[nH]cnc3
 396,rifampin,0,CC1C=CC=C(C(=O)NC2=C(C3=C(C(=C4C(=C3C(=O)C2=CNN5CCN(CC5)C)C(=O)C(O4)(OC=CC(C(C(C(C(C(C1O)C)O)C)OC(=O)C)C)OC)C)C)O)O)C
