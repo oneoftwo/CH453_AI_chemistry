@@ -25,8 +25,15 @@ for i in range(1, 1001):
     elif len(str(i)) == 4:
         fn = f"./data/dsgdb9nsd_00{i}.xyz"
     else:
-        print(i)
+        fn = None
+    
+    f = open(fn, "r")
+    line = f.readlines()[1].strip().split()[9]
+    line = str(line)          
     mol = read_xyz_to_mol(fn)
+    if mol is None:
+        continue
+    mol.SetProp("gap", line)
     mol_list.append(mol)
     
 save_fn = f"./data.pkl"
