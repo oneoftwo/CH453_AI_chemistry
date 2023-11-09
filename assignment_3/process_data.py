@@ -1,0 +1,29 @@
+from rdkit import Chem 
+import os 
+import pickle 
+
+
+def read_xyz_to_mol(fn):
+    sdf_fn = f"{fn[:-4]}.sdf"
+    os.system(f"obabel {fn} -O {fn[:-4]}.sdf")
+    mol = Chem.SDMolSupplier(sdf_fn)[0] 
+    return mol
+
+
+fn = "./data/dsgdb9nsd_000001.xyz"
+read_xyz_to_mol(fn)
+
+
+mol_list = []
+for i in range(1, 1001):
+    if len(str(i)) == 1:
+        fn = f"./data/dsgdb9nsd_00000{i}.xyz"
+    elif len(str(i)) == 2:
+        fn = f"./data/dsgdb9nsd_0000{i}.xyz"
+    mol = read_xyz_to_mol(fn)
+    mol_list.append(mol)
+    
+save_fn = f"./data.pkl"
+pickle.dump(mol_list, open(save_fn, "wb"))
+
+    
