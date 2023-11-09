@@ -15,6 +15,7 @@ read_xyz_to_mol(fn)
 
 
 mol_list = []
+gap_list = []
 for i in range(1, 1001):
     if len(str(i)) == 1:
         fn = f"./data/dsgdb9nsd_00000{i}.xyz"
@@ -35,9 +36,12 @@ for i in range(1, 1001):
         continue
     mol.SetProp("gap", line)
     mol_list.append(mol)
+    gap_list.append(float(line))
     print(mol.GetProp("gap"))
     
-save_fn = f"./data.pkl"
+save_fn = f"./mol.pkl"
 pickle.dump(mol_list, open(save_fn, "wb"))
+save_fn = f"./gap.pkl"
+pickle.dump(gap_list, open(save_fn, "wb"))
 
     
