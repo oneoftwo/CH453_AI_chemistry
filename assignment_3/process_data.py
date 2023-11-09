@@ -20,6 +20,12 @@ for i in range(1, 1001):
         fn = f"./data/dsgdb9nsd_00000{i}.xyz"
     elif len(str(i)) == 2:
         fn = f"./data/dsgdb9nsd_0000{i}.xyz"
+    elif len(str(i)) == 3:
+        fn = f"./data/dsgdb9nsd_000{i}.xyz"
+    elif len(str(i)) == 4:
+        fn = f"./data/dsgdb9nsd_00{i}.xyz"
+    else:
+        print(i)
     mol = read_xyz_to_mol(fn)
     mol_list.append(mol)
     
