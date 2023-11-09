@@ -35,6 +35,7 @@ for i in range(1, 1001):
         continue
     mol.SetProp("gap", line)
     mol_list.append(mol)
+    print(mol.GetProp("gap"))
     
 save_fn = f"./data.pkl"
 pickle.dump(mol_list, open(save_fn, "wb"))
